@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: const Icon(Icons.exposure_minus_1, color: Colors.white),
             backgroundColor: Colors.blue,
           ),
-          SizedBox(width: 1130.0),
+          SizedBox(width: 250.0),
           FloatingActionButton(
             onPressed: _incrementCounter,
             tooltip: 'Increment',
@@ -75,4 +75,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
